@@ -6,7 +6,7 @@
 >  
 > 所以我不是不去上課，我只是還在載入人生。
 
-# Tronclass 點名神器
+# 拒絕早八 Tronclass版
 此專案僅開源客戶端（browser extension）部分。<br>
 核心功能需透過後端服務支援，extension 會與遠端 server 進行通訊。<br>
 <br>
@@ -33,9 +33,27 @@
 此工具會將 session 等 Cookie 傳至後端以利運作，會怕就不要裝。
 
 ## 如何安裝
+### 1. 載這個
+<img width="1886" height="876" alt="image" src="https://github.com/user-attachments/assets/e649ec1b-de7c-4c52-abd3-34f5732a90fd" />
+<br>
+<br>
 
+### 2. 下載後將此zip解壓縮 將會獲取 no-8-a.m.-class-tag 資料夾
+
+### 3. 前往瀏覽器擴充功能管理頁面
+! 請記得開啟 開發人員模式 !
+
+### 4. 點擊「載入未封裝項目」並選擇剛剛解壓出來的資料夾
+
+### 5. 大功告成 開始使用🎉
 
 ## 如何使用
+進入 Tronclass 首頁即可看到此控制列
+<img width="1899" height="1029" alt="image" src="https://github.com/user-attachments/assets/c06b3376-f3ed-49a7-a4cb-82d05349d650" />
+<br>
+<br>
+按下點名他就會自己每隔一段時間抓一次了，如果有點名資訊他破解完就會給你(最快5秒內)。<br>
+把自動點名打開他就會幫你自動點名，一起告別早八吧
 
 
 ### 瀏覽器支援摘要
