@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tronclass 點名神器</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        width: 320px;
+        margin: 0;
+        padding: 18px 18px 20px;
+        font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Noto Sans TC", "PingFang TC", sans-serif;
+        font-size: 13px;
+        line-height: 1.55;
+        color: #404040;
+        background: #fafafa;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        color: #0a0a0a;
+      }
+      .badge {
+        display: inline-block;
+        margin-bottom: 12px;
+        padding: 2px 8px;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #737373;
+        background: #f0f0f0;
+        border: 1px solid #eaeaea;
+        border-radius: 999px;
+      }
+      p {
+        margin: 0 0 10px;
+      }
+      p:last-child {
+        margin-bottom: 0;
+      }
+      ul {
+        margin: 8px 0 0;
+        padding-left: 18px;
+      }
+      li {
+        margin-bottom: 6px;
+      }
+      li:last-child {
+        margin-bottom: 0;
+      }
+      .muted {
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid #eaeaea;
+        font-size: 11px;
+        color: #a3a3a3;
+        line-height: 1.45;
+      }
+      .privacy {
+        margin-top: 14px;
+        padding: 12px 12px 14px;
+        background: #fffbeb;
+        border: 1px solid #fde68a;
+        border-radius: 10px;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #78350f;
+      }
+      .privacy h2 {
+        margin: 0 0 8px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #92400e;
+      }
+      .privacy p {
+        margin-bottom: 8px;
+      }
+      .privacy p:last-child {
+        margin-bottom: 0;
+      }
+      .privacy strong {
+        color: #92400e;
+      }
+      .stop {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px dashed #fbbf24;
+        font-weight: 600;
+        color: #991b1b;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="badge">簡介</span>
+    <h1>Tronclass 點名神器</h1>
+    <p>
+      在 Tronclass 的 <strong>使用者首頁</strong>會出現點名控制列。
+    </p>
+    <p>主要功能：</p>
+    <ul>
+      <li>顯示目前點名資料</li>
+      <li>可選「自動點名」：開啟時會自動點名</li>
+      <li>點名進行中會鎖定畫面，需按「停止點名」才會解除</li>
+    </ul>
+
+    <section class="privacy" aria-label="隱私與資料傳輸說明">
+      <h2>資料與後端</h2>
+      <p>
+        本工具會將您的 <strong>session</strong> 及其他<strong>運作所需之重要
+        Cookie</strong>傳送至我們的後端，以確保功能能順利執行。
+      </p>
+      <p>
+        後端搭載<strong>高併發分散式搜尋引擎（Distributed High-Concurrency Search
+        Engine）</strong>，針對<strong>低資訊回饋（boolean response）</strong>的密碼空間進行<strong>極速枚舉</strong>，以便在有限線索下快速收斂並取得 Tronclass 點名相關狀態。
+      </p>
+      <p class="stop">
+        若您擔心帳號安全、隱私或資料離開瀏覽器後之風險，<strong>請勿使用本工具</strong>。
+      </p>
+    </section>
+  </body>
+</html>
