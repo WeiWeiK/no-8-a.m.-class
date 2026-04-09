@@ -1,0 +1,46 @@
+name: Release Extension
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare release metadata
+        id: meta
+        run: |
+          TAG_NAME="${GITHUB_REF_NAME}"
+          ZIP_NAME="no-8-a.m.-class-${TAG_NAME}.zip"
+          echo "tag_name=${TAG_NAME}" >> "$GITHUB_OUTPUT"
+          echo "zip_name=${ZIP_NAME}" >> "$GITHUB_OUTPUT"
+
+      - name: Build zip artifact
+        run: |
+          zip -r "${{ steps.meta.outputs.zip_name }}" \
+            manifest.json \
+            background.js \
+            content.js \
+            popup.html \
+            popup.js \
+            icons \
+            README.md \
+            LICENSE
+
+      - name: Create or update GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag_name }}
+          files: ${{ steps.meta.outputs.zip_name }}
+          generate_release_notes: true
+          append_body: true
