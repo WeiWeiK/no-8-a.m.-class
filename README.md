@@ -43,28 +43,48 @@
 此工具會將 session 等 Cookie 傳至後端以利運作，會怕就不要裝。
 
 ## 如何安裝
-### 1. 載這個
-<img width="1886" height="876" alt="image" src="https://github.com/user-attachments/assets/e649ec1b-de7c-4c52-abd3-34f5732a90fd" />
+**1. 載這個**
+<img width="1443" height="962" alt="image" src="https://github.com/user-attachments/assets/482a5db4-d292-4815-b937-f682987b2750" />
+
 <br>
 <br>
 
-### 2. 下載後將此zip解壓縮 將會獲取 no-8-a.m.-class-tag 資料夾
+**2. 下載後將此zip解壓縮 將會獲取 no-8-a.m.-class-1.1 資料夾**
+<br>
+<br>
 
-### 3. 前往瀏覽器擴充功能管理頁面
-! 請記得開啟 開發人員模式 !
+**3. 前往瀏覽器擴充功能管理頁面 (找不到請自己問ai)<br>**
 
-### 4. 點擊「載入未封裝項目」並選擇剛剛解壓出來的資料夾
+> [!WARNING]
+> 請記得開啟 開發人員模式
 
-### 5. 大功告成 開始使用🎉
+<br>
+<br>
+
+**4. 點擊「載入未封裝項目」並選擇剛剛解壓出來的資料夾**
+<img width="1568" height="754" alt="image" src="https://github.com/user-attachments/assets/cb3ce6af-54e0-40c6-b440-5d9fbc1c8706" />
+<img width="1288" height="148" alt="image" src="https://github.com/user-attachments/assets/47f8634f-4bbe-45f9-a375-c22f7d0562a6" />
+<br>
+<br>
+
+**5. 大功告成 開始使用🎉**
+<img width="1567" height="414" alt="image" src="https://github.com/user-attachments/assets/deb6961b-18e5-4496-9a36-3d1f9743b828" />
+<br>
+<br>
 
 ## 如何使用
 進入 Tronclass 首頁即可看到此控制列
-<img width="1899" height="1029" alt="image" src="https://github.com/user-attachments/assets/c06b3376-f3ed-49a7-a4cb-82d05349d650" />
+<img width="1570" height="1027" alt="截圖 2026-04-09 下午6 12 35" src="https://github.com/user-attachments/assets/978e5c7c-26c6-4268-80a4-34565652454d" />
+
 <br>
 <br>
 按下點名他就會自己每隔一段時間抓一次了，如果有點名資訊他破解完就會給你(最快5秒內)。<br>
 把自動點名打開他就會幫你自動點名，一起告別早八吧
+<br>
 
+> [!WARNING]
+> 請儘量在點名前3-5分鐘掛著用
+> 在此期間請勿使用 Tronclass 做任何動作
 
 ### 瀏覽器支援摘要
 - Chrome/Chromium：完整支援✅
