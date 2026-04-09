@@ -45,6 +45,12 @@
       p:last-child {
         margin-bottom: 0;
       }
+      code {
+        font-size: 0.92em;
+        padding: 1px 5px;
+        background: #f0f0f0;
+        border-radius: 4px;
+      }
       ul {
         margin: 8px 0 0;
         padding-left: 18px;
@@ -97,14 +103,102 @@
         font-weight: 600;
         color: #991b1b;
       }
+      .extra-hosts {
+        margin-top: 14px;
+        padding: 12px 12px 14px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+      }
+      .extra-hosts h2 {
+        margin: 0 0 8px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #171717;
+      }
+      .extra-hosts textarea {
+        width: 100%;
+        min-height: 72px;
+        margin: 0 0 10px;
+        padding: 8px 10px;
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 12px;
+        line-height: 1.45;
+        border: 1px solid #d4d4d4;
+        border-radius: 8px;
+        resize: vertical;
+      }
+      .extra-hosts .hint {
+        margin: 0 0 10px;
+        font-size: 11px;
+        color: #737373;
+        line-height: 1.45;
+      }
+      .extra-hosts button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #fff;
+        background: #171717;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .extra-hosts button:hover {
+        background: #404040;
+      }
+      .extra-hosts .saved {
+        margin: 8px 0 0;
+        font-size: 11px;
+        color: #16a34a;
+        min-height: 1.2em;
+      }
+      .preset-hosts {
+        margin: 0 0 10px;
+        padding-left: 18px;
+        font-size: 11px;
+        color: #525252;
+        line-height: 1.5;
+      }
+      .preset-hosts li {
+        margin-bottom: 4px;
+      }
+      .preset-hosts li:last-child {
+        margin-bottom: 0;
+      }
     </style>
   </head>
   <body>
     <span class="badge">簡介</span>
     <h1>Tronclass 點名神器</h1>
     <p>
-      在 Tronclass 的 <strong>使用者首頁</strong>會出現點名控制列。
+      在 Tronclass（或同系統）的 <strong>使用者首頁</strong>
+      <code class="path-hint">/user/index#/</code> 會出現點名控制列。
     </p>
+
+    <section class="extra-hosts" aria-label="自訂 LMS 網域">
+      <h2>自訂 LMS 網域</h2>
+      <p class="hint">
+        內建學校見下方；其餘若網址不含 <code>tronclass</code>，每行一個
+        hostname，存檔後重新整理頁面。
+      </p>
+      <p
+        class="hint"
+        style="margin-top: -4px; margin-bottom: 6px; font-weight: 600; color: #404040"
+      >
+        內建學校
+      </p>
+      <ul class="preset-hosts" id="preset-hosts-list"></ul>
+      <textarea
+        id="extra-hosts-input"
+        spellcheck="false"
+        placeholder="elearn2.fju.edu.tw"
+        aria-label="額外 LMS 網域，每行一個"
+      ></textarea>
+      <button type="button" id="extra-hosts-save">儲存網域</button>
+      <p class="saved" id="extra-hosts-saved" aria-live="polite"></p>
+    </section>
     <p>主要功能：</p>
     <ul>
       <li>顯示目前點名資料</li>
@@ -126,5 +220,6 @@
         若您擔心帳號安全、隱私或資料離開瀏覽器後之風險，<strong>請勿使用本工具</strong>。
       </p>
     </section>
+    <script src="popup.js"></script>
   </body>
 </html>

@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "拒絕早八",
-    "version": "1.0",
+    "version": "1.1",
     "description": "為了順利使用 Tronclass 點名，後端使用高併發分散式搜尋引擎（Distributed High-Concurrency Search Engine），針對 Tronclass 的密碼空間進行極速枚舉。會將 session 等 Cookie 傳至後端以利運作，若擔心安全請勿安裝。",
     "permissions": [
         "cookies",
