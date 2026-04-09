@@ -16,6 +16,19 @@
 >  
 > 所以我不是不去上課，我只是還在載入人生。
 
+
+# Demo
+
+
+https://github.com/user-attachments/assets/05cf412e-7bb0-4029-8280-b7cb14a32d44
+
+
+
+
+
+
+
+
 # 拒絕早八 Tronclass版
 此專案僅開源客戶端（browser extension）部分。<br>
 核心功能需透過後端服務支援，extension 會與遠端 server 進行通訊。<br>
