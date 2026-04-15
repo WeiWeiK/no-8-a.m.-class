@@ -3,7 +3,7 @@
 > 請聯繫作者取得金鑰，並填入下方紅框欄位。<br>
 > 請於點名前幾分鐘開啟使用，避免長時間掛機。(不然我會封你)<br>
 >（僅適用於 v1.1.5 版本的 Extension，若已過期請移除並重新安裝套件）<br>
-<img width="1899" height="1025" alt="截圖 2026-04-15 下午6 17 23" src="https://github.com/user-attachments/assets/4bffaae4-07d4-4796-a013-c8baa1d0f2c0" />
+<img width="1899" height="1025" alt="下載文檔" src="https://github.com/user-attachments/assets/c43d1bf4-fbe7-4cf9-b0aa-39c4a2a99e13" />
 
 
 > [!WARNING]
@@ -75,7 +75,8 @@ https://github.com/user-attachments/assets/05cf412e-7bb0-4029-8280-b7cb14a32d44
 
 ## 如何安裝
 **1. 載這個**
-<img width="1443" height="962" alt="image" src="https://github.com/user-attachments/assets/482a5db4-d292-4815-b937-f682987b2750" />
+<img width="1443" height="962" alt="下載文檔 (1)" src="https://github.com/user-attachments/assets/caa4bc4c-c717-462a-ad71-670e6d311544" />
+
 
 <br>
 <br>
